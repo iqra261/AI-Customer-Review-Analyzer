@@ -1,0 +1,19 @@
+# Secrets - never upload these
+.streamlit/secrets.toml
+.env
+
+# Uploaded / private data (the sample file is allowed)
+*.csv
+!sample_reviews.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
